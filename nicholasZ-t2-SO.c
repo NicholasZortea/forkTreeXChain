@@ -17,7 +17,7 @@ void createChainOfProcess(int processToCreate);
 
 int main(int argc, char *argv[]){
     int userInput = atoi(argv[1]);
-    if(userInput == NULL || userInput <= 0){
+    if(userInput <= 0){
         printf("Entrada invalida!\n");
         return 0;
     }
